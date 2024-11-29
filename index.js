@@ -1,10 +1,10 @@
 //for loop to print the numbers from 1 to 20
-for(i=1;i<=20;i++){
+for(var i=1;i<=20;i++){
     console.log(i);
 }
 
 // for loop (squares of numbers)
-for(j=1;j<=10;j++){
+for(var j=1;j<=10;j++){
     console.log(j*j);
 }
 
@@ -31,10 +31,10 @@ for(var b=0;b<=arr1.length-1;b++){
 console.clear()
 //to print index of each element along with its value
 arr2=['apple', 'banana', 'cherry']
-for(f=0;f<=arr2.length-1;f++){
+for(var f=0;f<=arr2.length-1;f++){
 console.log(`Index ${f}: ${arr2[f]}`)
 }
 arr3=['apple', 'banana', 'cherry']
-for(h=0;h<=arr2.length-1;h++){
+for(var h=0;h<=arr2.length-1;h++){
 console.log('index',h,':',arr3[h])
 }
